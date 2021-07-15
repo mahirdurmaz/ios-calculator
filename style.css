@@ -2,20 +2,21 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Helvetica Neue" sans-serif;
   font-weight: normal;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(2, 2, 2);
+  background-color: rgb(24, 26, 27);
 }
 
 .sign {
   display: block;
   margin-left: 798px;
   color: white;
+  font-family: sans-serif;
 }
 
 .container {
@@ -32,7 +33,7 @@ a {
   margin-top: 5px;
   grid-template-columns: repeat(4, 70px);
   grid-template-rows: repeat(5, 68px);
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   width: 290px;
   padding-top: 185px;
   height: 530px;
@@ -41,18 +42,18 @@ a {
 }
 
 .button {
-  background-color: rgb(3, 3, 3);
+  background-color: rgb(38, 42, 43);
   border: none;
   color: white;
-  padding: 20px;
+  padding: 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 18px;
+  font-size: 23px;
   margin: 3px;
   cursor: pointer;
   border-radius: 60px;
-  padding-top: 22px;
+  padding-top: 19px;
 }
 
 #display {
@@ -71,6 +72,7 @@ a {
   font-size: 40px;
   top: 170px;
   word-wrap: break-word;
+  font-family: sans-serif;
 }
 
 .char3 {
@@ -90,6 +92,7 @@ a {
 
 .zero {
   grid-column: span 2;
+  text-align: left;
 }
 
 .button:active {
